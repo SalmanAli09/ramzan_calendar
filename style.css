@@ -1,0 +1,108 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.day{
+    text-align: justify;
+    border-right-width: 2px;
+    border-right-color: rgb(32, 136, 28);
+}
+th{
+    border: 0px;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+.date{
+    background-color: rgb(229, 226, 226);
+    border-right-width: 2px;
+    border-right-color: rgb(32, 136, 28);
+}
+.day , .date , .fajr , .sun , .zuhr , .asr , .mgrb , .isha{
+    border-right-width: 2px;
+    border-right-color: rgb(32, 136, 28);
+    padding: 15px;
+}
+.fajr , .mgrb{
+    color: rgb(179, 0, 179);
+    font-weight: 900;
+}
+.fajr , .zuhr , .mgrb{
+    background-color:rgb(235, 232, 232);
+}
+.heading_tab_h1 , .heading_tab_h3{
+    text-align: center;
+}
+.heading_tab_h3{
+    color: gray;
+    text-align: center !important;
+}
+.main{
+    margin: 0px auto;
+}
+@font-face {
+    font-family:"urdu" ;
+    src: url(Noto_Nastaliq_Urdu/NotoNastaliqUrdu-Bold.ttf);
+}
+
+.urdu_heading{
+    font-family: "urdu";
+    margin-left: 30px;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+.dua{
+    position: absolute;
+    right: 30px;
+    top: 170px;
+}
+/* .sehri_dua{
+    font-family: "urdu";
+}
+ */
+.sehri{
+    margin: 0px auto;
+    width: 600px;
+    height: 300px;
+    margin: 0px auto;
+     
+}
+.duabutton {
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Poppins-Regular" ;
+    border: 1px solid rgb(179, 0, 179);
+    background-color: rgb(229, 226, 226);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    padding: 13px;
+    float: left;
+}
+.duabutton2 {
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Poppins-Regular" ;
+    border: 1px solid rgb(179, 0, 179);
+    background-color: rgb(229, 226, 226);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    padding: 15px;
+    float: right;
+    text-decoration: none;
+}
+.duabuttonborder {
+    text-align: center;
+     margin: 0 auto;
+     width: 500px;
+     height: 60px;
+     margin-bottom: 20px;
+ }
